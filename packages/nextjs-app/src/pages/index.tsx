@@ -1,8 +1,10 @@
 import styles from '@/styles/Home.module.css'
 import { Inter } from '@next/font/google'
+// @ts-ignore
 import { formatDate } from "date-formatter-lib"
 import Head from 'next/head'
 import Image from 'next/image'
+// @ts-ignore
 import { Greeting } from "ui-shared"
 
 const inter = Inter({ subsets: ['latin'] })
